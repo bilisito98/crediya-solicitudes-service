@@ -1,7 +1,7 @@
 package co.com.crediya.solicitudes.appservice.controller;
 
 import co.com.crediya.solicitudes.domain.model.Cliente;
-import co.com.crediya.solicitudes.infrastructure.service.ClienteService;
+import co.com.crediya.solicitudes.appservice.service.ClienteService;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;

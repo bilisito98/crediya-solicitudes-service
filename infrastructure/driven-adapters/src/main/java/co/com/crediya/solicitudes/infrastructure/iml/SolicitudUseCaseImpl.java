@@ -1,4 +1,4 @@
-package co.com.crediya.solicitudes.domain.usecase.impl;
+package co.com.crediya.solicitudes.infrastructure.iml;
 
 import co.com.crediya.solicitudes.domain.model.Solicitud;
 import co.com.crediya.solicitudes.domain.ports.SolicitudRepositoryPort;

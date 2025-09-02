@@ -1,4 +1,4 @@
-package co.com.crediya.solicitudes.infrastructure.service;
+package co.com.crediya.solicitudes.appservice.service;
 
 import co.com.crediya.solicitudes.domain.usecase.ClienteUseCase;
 import co.com.crediya.solicitudes.domain.model.Cliente;

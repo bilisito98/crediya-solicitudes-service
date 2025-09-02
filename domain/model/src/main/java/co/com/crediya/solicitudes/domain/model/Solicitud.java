@@ -11,9 +11,11 @@ import java.util.UUID;
 public class Solicitud {
     private UUID id;
     private UUID clienteId;
+    private String documentoIdentidad;
     private String numero;
     private Double monto;
     private Integer plazoMeses;
+    private String tipoPrestamo;
     private String estado;
     private LocalDate fechaCreacion;
     private UUID usuarioId;

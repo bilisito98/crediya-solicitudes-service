@@ -26,7 +26,6 @@ public class SolicitudRepositoryAdapter implements SolicitudRepositoryPort {
                 .map(SolicitudMapper::toModel);
     }
 
-    // Verifica existencia por número de solicitud
     @Override
     public Mono<Boolean> existeSolicitud(String numero) {
         return repository.findByNumero(numero)

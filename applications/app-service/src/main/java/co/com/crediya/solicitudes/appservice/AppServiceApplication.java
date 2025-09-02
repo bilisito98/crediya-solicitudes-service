@@ -18,7 +18,7 @@ import org.springframework.data.r2dbc.repository.config.EnableR2dbcRepositories;
         "co.com.crediya.solicitudes.infrastructure.adapters",
         "co.com.crediya.solicitudes.infrastructure.r2dbc",
         "co.com.crediya.solicitudes.infrastructure.mapper",
-        "co.com.crediya.solicitudes.infrastructure.service",
+        "co.com.crediya.solicitudes.infrastructure.iml",
         "co.com.crediya.solicitudes.appservice.config"
 })
 @EnableR2dbcRepositories(basePackages = "co.com.crediya.solicitudes.infrastructure.r2dbc")

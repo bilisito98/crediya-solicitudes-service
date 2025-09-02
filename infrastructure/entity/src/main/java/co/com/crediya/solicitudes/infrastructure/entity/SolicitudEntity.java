@@ -11,7 +11,7 @@ import java.util.UUID;
 
 @Data
 @Builder
-@Table("solicitudes") // Tabla en la base de datos
+@Table("solicitudes")
 public class SolicitudEntity {
 
     @Id
@@ -20,6 +20,9 @@ public class SolicitudEntity {
     @Column("cliente_id")
     private UUID clienteId;
 
+    @Column("documento_identidad")
+    private String documentoIdentidad;
+
     private String numero;
 
     private Double monto;
@@ -27,13 +30,14 @@ public class SolicitudEntity {
     @Column("plazo_meses")
     private Integer plazoMeses;
 
-    private String estado;
+    @Column("tipo_prestamo")
+    private String tipoPrestamo;
+
+    private String estado; // Por defecto "Pendiente de revisión"
 
     @Column("fecha_creacion")
     private LocalDate fechaCreacion;
 
     @Column("usuario_id")
     private UUID usuarioId;
-
-    private LocalDate fecha;
 }
