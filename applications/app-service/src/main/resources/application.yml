@@ -16,19 +16,6 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
 
-  r2dbc:
-    url: r2dbc:postgresql://dpg-d2n56fqli9vc73bnvas0-a/creditya_db
-    username: creditya_db_user
-    password: NxQrf1h15WeUU61fVpAFRersiAuGQQSf
-
-  flyway:
-    enabled: true
-    url: jdbc:postgresql://dpg-d2n56fqli9vc73bnvas0-a/creditya_db?sslmode=require
-    user: creditya_db_user
-    password: NxQrf1h15WeUU61fVpAFRersiAuGQQSf
-    locations: classpath:migration
-    baseline-on-migrate: true
-
   main:
     banner-mode: console
 
